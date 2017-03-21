@@ -1,0 +1,88 @@
+body { background-image: url("donut.jpg")
+}
+
+.container {margin-top:50px;
+	background-size: cover;
+	width:950px;
+	background-image: url("simpsons-cloud.jpg")
+	
+}
+
+@font-face {
+	font-family: "Simpsons";
+	src: url("simpsonfont.zip");
+}
+
+#header {
+	background: none;
+	margin-top: 50px;
+	border:none;
+	color: #fad443;
+	font-family: 'Rock Salt', bold;}
+
+
+#timer {
+	border: none;
+	text-align: center;
+	color: yellow;
+	background: none;
+	margin-top: 20px;
+	font-size:24px;
+}
+
+#question {
+	border:none;
+	background: none;
+}
+
+ h1 {text-align: center;}
+
+#answera {
+font-family: 'Rock Salt', bold;
+color: #fad443;
+		margin-left:390px;
+
+	text-decoration: none;
+	font-size: 18px;
+}
+
+#answera:hover{color: red;}
+
+#answerb {font-family: 'Rock Salt', bold;
+	float: left;
+	margin-left: 390px;
+	margin-bottom: 12px;
+	text-align: right;
+	text-decoration: none;
+	font-size: 18px;
+	color: #fad443;
+
+}
+
+#answerb:hover{color: red;}
+
+#answerc {font-family: 'Rock Salt', bold;
+	clear: both;
+	float:left;
+	margin-left:390px;
+	margin-bottom: 12px;
+	text-align: center;
+text-decoration: none;
+color: #fad443;
+	font-size: 18px;
+}
+
+#answerc:hover{color: red;}
+
+#answerd {font-family: 'Rock Salt', bold;
+	clear:both;
+	float:left;
+	margin-left: 390px;
+	color: #fad443;
+	margin-bottom: 15px;
+	text-decoration: none;
+	font-size: 18px;
+
+}
+#answerd:hover{color: red;}
+

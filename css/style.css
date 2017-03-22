@@ -8,16 +8,28 @@ body { background-image: url("donut.jpg")
 	
 }
 
-@font-face {
-	font-family: "Simpsons";
-	src: url("simpsonfont.zip");
+#outcome {
+
+	    width: 500px;
+    margin-top: 20px;
+    margin-left: 205px;
+    border-style: none;
+    margin-bottom: 15px;
+    border:none;
+    background:none;
 }
 
+
 #header {
-	background: none;
+	background-color: blue;
 	margin-top: 50px;
 	border:none;
-	color: #fad443;
+	width: 500px;
+	   border-style: none;
+	margin-left:205px;
+	opacity: 0.5;
+	border: 20px;
+	color: yellow;
 	font-family: 'Rock Salt', bold;}
 
 
@@ -25,14 +37,26 @@ body { background-image: url("donut.jpg")
 	border: none;
 	text-align: center;
 	color: yellow;
+	   border-style: none;
 	background: none;
+	
 	margin-top: 20px;
 	font-size:24px;
 }
 
 #question {
 	border:none;
-	background: none;
+	background: red;
+	text-align: center;
+	font-size: 18px;
+	color: #fad443;
+
+}  
+
+.gif {
+	text-align: center;
+	margin-bottom: 20px
+	width: 300px;
 }
 
  h1 {text-align: center;}
@@ -40,7 +64,7 @@ body { background-image: url("donut.jpg")
 #answera {
 font-family: 'Rock Salt', bold;
 color: #fad443;
-		margin-left:390px;
+		margin-right:10px;
 
 	text-decoration: none;
 	font-size: 18px;
@@ -50,7 +74,7 @@ color: #fad443;
 
 #answerb {font-family: 'Rock Salt', bold;
 	float: left;
-	margin-left: 390px;
+	margin-left: 200px;
 	margin-bottom: 12px;
 	text-align: right;
 	text-decoration: none;
@@ -64,7 +88,7 @@ color: #fad443;
 #answerc {font-family: 'Rock Salt', bold;
 	clear: both;
 	float:left;
-	margin-left:390px;
+	margin-left:200px;
 	margin-bottom: 12px;
 	text-align: center;
 text-decoration: none;
@@ -77,7 +101,7 @@ color: #fad443;
 #answerd {font-family: 'Rock Salt', bold;
 	clear:both;
 	float:left;
-	margin-left: 390px;
+	margin-left: 200px;
 	color: #fad443;
 	margin-bottom: 15px;
 	text-decoration: none;

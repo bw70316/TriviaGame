@@ -12,7 +12,8 @@
 
 </head>
 <body>
-<div class="container">
+<button class="gamestart" id="start" type="submit">Welcome to the Simpsons Trivia Game</button>
+<div class="container" id="container">
   <div id="header">
   <div class="panel-body">
   <h1><strong>The Simpsons Trivia Game<strong></h1>
@@ -34,12 +35,17 @@
 <div class="gif" id="outcome">
   <div class="row">
   	
-    	<a class="choice" id="answera" href="#" role="button">Mr Burns</a> <br><br>
-    	 <a class="choice" id="answerb" href="#" role="button">Apu</a>
-     	 <a class="choice" id= "answerc" href="#" role="button">Ned Flanders</a>
-      	 <a class="choice" id= "answerd" href="#" role="button">Nelson</a>
+    	<a class="option" id="answera"><input type="radio" name="option"  value= "1"><span id="opt1"></span></a> <br><br>
+    	 <a class="option" id="answerb"> <input type="radio" name="option" value= "2"><span id="opt2"></span></a>
+     	 <a class="option" id= "answerc"> <input type="radio"  name="option" value= "3"><span id="opt3"></span></a>
+      	 <a class="option" id= "answerd"> <input type="radio" name="option" value= "4"><span id="opt4"></span></a>
     </div>
      </div>
+   
+
+
+</div>
+   
   </div>
 
 

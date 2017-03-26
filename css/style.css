@@ -1,4 +1,7 @@
+
+
 body { background-image: url("donut.jpg")
+
 }
 
 #start { margin-left: 500px;
@@ -26,6 +29,11 @@ font-size: 40px;
     border-style: none;
     margin-bottom: 15px;
     border:none;
+    background:none;
+    color: #fad443;
+	text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+	font-weight: bold;
+	font-family: 'Rock Salt', bold;
     background:none;
 }
 
@@ -66,7 +74,7 @@ font-size: 40px;
 
 	color: #fad443;
 	text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
-
+	font-weight: bold;
 	font-family: 'Rock Salt', bold;
 
 }  
@@ -81,8 +89,10 @@ font-size: 40px;
 
 #answera {
 font-family: 'Rock Salt', bold;
+font-weight: bold;
 color: #fad443;
 		margin-right:10px;
+		text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
 
 	text-decoration: none;
 	font-size: 18px;
@@ -94,7 +104,9 @@ color: #fad443;
 	float: left;
 	margin-left: 200px;
 	margin-bottom: 12px;
+	font-weight: bold;
 	text-align: right;
+	text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
 	text-decoration: none;
 	font-size: 18px;
 	color: #fad443;
@@ -107,7 +119,9 @@ color: #fad443;
 	clear: both;
 	float:left;
 	margin-left:200px;
+	font-weight: bold;
 	margin-bottom: 12px;
+	text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
 	text-align: center;
 text-decoration: none;
 color: #fad443;
@@ -120,9 +134,11 @@ color: #fad443;
 	clear:both;
 	float:left;
 	margin-left: 200px;
+	font-weight: bold;
 	color: #fad443;
 	margin-bottom: 15px;
 	text-decoration: none;
+	text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
 	font-size: 18px;
 
 }

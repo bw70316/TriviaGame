@@ -21,6 +21,15 @@ font-size: 40px;
 	
 }
 
+
+sup {
+	font-size: 4px;
+}
+
+#again {
+	color:blue;
+}
+
 #outcome {
 
 	    width: 500px;

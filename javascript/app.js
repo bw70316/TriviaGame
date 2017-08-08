@@ -47,7 +47,9 @@ var interval;
 
  $(".container").hide(); // the game begins with the container hidden and just the start button showing. 
 
-$("#start").on('click', function() { // on click the container appears and the game runs
+$("#start").on('click', function() { 
+		event.preventDefault();
+		 $("#start").hide();
  	$(".container").show();
   	countdown.innerHTML = 'You have ' + (seconds - second) + ' seconds left!'; // this is the countdown, 
 
@@ -58,15 +60,19 @@ $("#start").on('click', function() { // on click the container appears and the g
  		//gradually taking away one from the seconds, which is set at 60.
 	 	if (second >= seconds) {
  			clearInterval(interval);
- 			$("#outcome").html("<img src='css/giphy.gif' height='300px' width='200px'/>");
+ 			$("#outcome").html("<img src='css/giphy.gif' height='300px' width='200px'/>", "<p>sup brah</p>");
  			$("#question").html("D'oh !! you're out of time !!"); 
+ 			// $("#question").append("<button type='button' onclick='location.href='http://www.stackoverflow.com''">ABC</button>);
+ 			
+
  		       }
-	}, 1000); // This if statement clears the interval when the seconds reach zero and displays a new statement in the html. 1000 = 1000 ms
+	}, 50); // This if statement clears the interval when the seconds reach zero and displays a new statement in the html. 1000 = 1000 ms
  });
 
-$("#start").on("click", function() {
- $("#start").hide();
- }); // this just hides the start button on click
+// $("#start").on("click", function() {
+//  $("#start").hide();
+ 
+//  }); // this just hides the start button on click
 
 var currentQuestion = 0;
 var score= 0;
@@ -97,6 +103,15 @@ if (answer !== correctAnswer) {
 if(currentQuestion === totalQuestions){
 	
 	$("#question").html("You got " + score + " right!!");
+	// $("#question").append("<button type='button' onclick='location.href='http://www.stackoverflow.com''">ABC</button>");
+	$("#button").show();
+	$("#again").on('click', function(){
+	console.log("click");
+	$(".container").hide();
+	$("#start").show();
+	
+});
+
 		
 
  } // when game is over it will display the score
@@ -122,6 +137,11 @@ clearInterval(interval);
 
 
 });
+
+
+	
+
+
 
 
 //I know i need to havea  way to revert it back, but I tried to go above and beyond and do the advanced for 5 days. After I couldnt get that to work, I decided this morning....

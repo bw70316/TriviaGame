@@ -66,7 +66,7 @@ $("#start").on('click', function() {
  			
 
  		       }
-	}, 50); // This if statement clears the interval when the seconds reach zero and displays a new statement in the html. 1000 = 1000 ms
+	}, 1000); // This if statement clears the interval when the seconds reach zero and displays a new statement in the html. 1000 = 1000 ms
  });
 
 // $("#start").on("click", function() {
